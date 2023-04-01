@@ -75,4 +75,4 @@ docker compose run --rm --entrypoint "\
 echo
 
 echo "### Reloading nginx ..."
-docker compose exec nginx nginx -s reload
+docker compose -p phatpham exec nginx nginx -s reload
